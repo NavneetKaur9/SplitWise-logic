@@ -1,3 +1,4 @@
+```js
 function processData(input) {
     let inputArr = input.split("\n");
     let personsArr = inputArr[0].split("");
@@ -93,3 +94,4 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
+```
